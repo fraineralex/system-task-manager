@@ -1,6 +1,6 @@
 import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
 import { tokens } from "../../theme";
-import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
+import DownloadOutlinedIcon from "@mui/icons-material/Addchart";
 import Header from "../../components/Header";
 import LineChart from "../../components/LineChart";
 
@@ -25,7 +25,7 @@ const Dashboard = () => {
             }}
           >
             <DownloadOutlinedIcon sx={{ mr: "10px" }} />
-            Download Reports
+            Run new task
           </Button>
         </Box>
       </Box>
